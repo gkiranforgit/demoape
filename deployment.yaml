@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: simple-webapp
-        image: myacr123.azurecr.io/simple-webapp:latest
+        image: demoap.azurecr.io/simple-webapp:latest
         ports:
         - containerPort: 3000
